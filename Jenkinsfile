@@ -17,7 +17,7 @@ pipeline{
     
         stage("Checkout from SCM"){
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/m-aminian/devops-sony'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/m-aminian/devops-p1'
             }
 
         }
